@@ -79,7 +79,7 @@ dependencies {
         exclude group: 'stax', module: 'stax'
         exclude group: 'xpp3', module: 'xpp3'
     }
-    implementation 'com.github.maniac103:rxloader:master-SNAPSHOT'
+    implementation 'com.github.maniac103:rxloader:0.4.0'
     implementation 'com.github.maniac103:githubsdk:0.7.0.14'
     implementation 'com.larswerkman:HoloColorPicker:1.5@aar'
     implementation 'com.caverock:androidsvg-aar:1.4'
