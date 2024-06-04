@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/.github" # Location of package manifests
+    schedule:
+      interval: "daily"
+    labels:
+       - "github-actions"
+       - "dependencies"
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
