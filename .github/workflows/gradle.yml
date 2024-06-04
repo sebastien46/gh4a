@@ -25,4 +25,4 @@ jobs:
       uses: gradle/actions/setup-gradle@v3.3.2
 
     - name: Build with Gradle Wrapper
-      run: ./gradlew build
+      run: ./gradlew build --scan
