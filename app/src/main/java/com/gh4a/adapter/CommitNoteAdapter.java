@@ -163,7 +163,7 @@ public class CommitNoteAdapter extends RootAdapter<GitComment, CommitNoteAdapter
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, GitComment item) {
+    public void onBindViewHolder(ViewHolder holder, @SuppressLint("RecyclerView") GitComment item) {
         final User user = item.user();
         final Date createdAt = item.createdAt();
         final Date updatedAt = item.updatedAt();
